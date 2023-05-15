@@ -8,9 +8,9 @@ og du kan med fordel sjekke andre kilder selv.
 
 ## Software
 Installer programvere i denne rekkefølgen.
-    - [Git - Downloads (git-scm.com)](https://git-scm.com/downloads)
-    - Registrer konto hos Github.com dersom du ikke har gjort dette enda.
-    - [GitHub Desktop | Simple collaboration from your desktop](https://desktop.github.com/)
+1.  [Git - Downloads (git-scm.com)](https://git-scm.com/downloads)
+2. Registrer konto hos Github.com dersom du ikke har gjort dette enda.
+3. [GitHub Desktop | Simple collaboration from your desktop](https://desktop.github.com/)
     
 
 ## Grunnleggende
