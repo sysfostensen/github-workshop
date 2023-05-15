@@ -6,13 +6,13 @@ Massive downside to "big bang" merges. They had a main branch for releases, and 
 They went so far as to create a subgroup branch, holding the same merge patterns as the group had towards main. They went even further and created feature branches for the sub group branches and hot fixes for the main branch and release branches(!).
 Summary: **Do not do this!**
 
-![[Visual_studio_bad_branching.png]]
+![Visual_studio_bad_branching.png](./Attachments/Visual_studio_bad_branching.png)
 
 ## Trunk Based
 They generally recommend *Trunk-Based strategy*. Reduce merge conflicts. Code review is easier and pull request are encouraged due to the smaller incremental changes.
 Feature branches are like an integration credit card, it needs to be paid back. Instead use feature flags to enable/disable features for end users.
 
-![[Visual_studio_trunk_branching.png]]
+![Visual_studio_trunk_branching.png](./Attachments/Visual_studio_trunk_branching.png)
 
 ## GitHub Flow
 
@@ -25,7 +25,7 @@ GitHub Flow locks the master branch before the merge into the branch. Build is d
 *The GitHub Flow is recommended for continuous deployment*.
 Downside is that it does not scale too well, all test will have to be run for all pull requests and that keeps the master branch locked for others while your tests are running. Stopped working around a 150+ per month, solved using their chat robot to keep a queue system.
 
-![[Visual_studio_github_flow.png]]
+![Visual_studio_github_flow.png](./Attachments/Visual_studio_github_flow.png)
 
 ## Release flow branching structure
 
@@ -39,7 +39,7 @@ M120 represents a finished and deployed sprint. Once a new spring, M121, is done
 They do not deploy master to production in order to have the opportunity to fix bugs that have made it into the sprint release.
 
 When a bug is detected they create a new branch from master, fixes the bug and merges it back into master. The pull request that holds the fix is then also copied/merged into the released branch. Illustrated by the highlighted topic branch on the right hand side:
-![[visual_studio_release_flow_with_bug.png]]
+![visual_studio_release_flow_with_bug.png](./Attachments/visual_studio_release_flow_with_bug.png)
 
 
 They do it this way, which is a bit slower than the alternatives of fixing directly against release, because it ensures that they always have this change in master and that it becomes part of future sprint releases. Important since the sprint release branches gets blown away once the next sprint is released.
