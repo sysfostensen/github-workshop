@@ -15,7 +15,7 @@ Main branch remains stable for release throughout the development cycle.
 The sea of branches might get in way of CI/CD as developers drown in commits.
 It is a rigid structure not always suited to the problem/project and might be a bit too much. Best suited for larger projects with multiple releases and larger teams?
 
-![[Screenshot 2023-02-26 at 19.34.01.png]]
+![Gitflow madness](./Attachments/Gitflow_madness.png)
 
 
 1. Many many branches
