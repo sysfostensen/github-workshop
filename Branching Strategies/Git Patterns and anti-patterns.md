@@ -34,7 +34,7 @@ This is the strategy that the visual studio team follows. Deployments are done a
 
 M120 represents a finished and deployed sprint. Once a new spring, M121, is done the old M120 branch is thrown away as the new one is deployed to production.
 
-![[visual_studio_release_flow_no_bug.png]]
+![visual_studio_release_flow_no_bug.png](./Attachments/visual_studio_release_flow_no_bug.png)
 
 They do not deploy master to production in order to have the opportunity to fix bugs that have made it into the sprint release.
 
