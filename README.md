@@ -19,3 +19,6 @@ Installer programvere i denne rekkefølgen.
 ## Interactivt
 [Learn Git Branching](https://learngitbranching.js.org/)
 
+# Ekstra funksjonalitet
+[Spore endringer i word dokument](https://olickel.com/tracking-word-documents-with-git)
+
