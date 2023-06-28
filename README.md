@@ -11,6 +11,7 @@ Installer programvere i denne rekkefølgen.
 1.  [Git - Downloads (git-scm.com)](https://git-scm.com/downloads)
 2. Registrer konto hos Github.com dersom du ikke har gjort dette enda.
 3. [GitHub Desktop | Simple collaboration from your desktop](https://desktop.github.com/)
+4. For file editing needs, we suggest using Microsoft's Visual Studio Code, which offers robust GitHub integration. The application can be downloaded from here: [Visual Studio Code](https://code.visualstudio.com/).
     
 
 ## Grunnleggende
